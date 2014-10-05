@@ -63,7 +63,7 @@ div {
 	height: 70px;
 	margin: 0 auto;
 	width: 970px;
-	
+
 	}
 .top-navigation .links {
 	float: right;
@@ -144,11 +144,12 @@ h2 {
 }
 .devices {
 	display: inline-block;
-	margin-left: 8em;
-	margin-right: 8em;
-	margin-top: 3em;
-
+	margin: 3em;
 }
+.cases .content {
+ text-align: center;
+}
+
 h4, .notes {
 	font-family: 'Roboto', sans-serif; 
 	font-size: 15px; 
@@ -160,4 +161,14 @@ h4, .notes {
 h4 {
 	font-weight: bolder;
 }
-
+/*End of case section*/
+/*Start of footer*/
+.icons li {
+	display: inline-block;
+	margin: 3em;
+	}
+.social .content {
+	margin:5em;
+	text-align: center;
+	
+}
