@@ -56,6 +56,9 @@ div {
 /*Navigation Bar Settings*/
 .top-navigation {
 	  background-color: #fff;
+	  position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
 
 }
 .top-navigation > .content {
@@ -197,3 +200,4 @@ h4 {
 .karma-bio h5, p {
 	margin: 3em;
 }
+/*End of karma learn*/
