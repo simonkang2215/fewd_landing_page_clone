@@ -53,11 +53,79 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+/*Navigation Bar Settings*/
 .top-navigation {
 	  background-color: #fff;
 }
 .top-navigation > .content {
-	width: 970px;
+	padding: 0px 15px;
 	height: 70px;
 	margin: 0 auto;
+	width: 970px;
+	}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	margin-top: 1.5em;
+
+
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+	
+}
+.top-navigation .links > .active {
+	  color: #4c5058;
+    font-weight: 600;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+    color: #333333;
+}
+/*End of Nav Bar*/
+/*Introduction Section settings*/
+.introduction {
+	background-image: url('../img/first-background.jpg');
+background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 735px;
+    overflow: auto;
+	
+}
+.introduction .content {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: white; 
+	letter-spacing: 0.03em;
+	margin-top: 7em;
+}
+h1, h3 {
+	text-align: center;
+	font-size: 30px;
+	padding: 1em;
+}
+.half-learn, .half-watch {
+	display: inline-block;
+
+}
+.half-watch {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 25px; 
+	color: white; 
+	letter-spacing: 0.03em;
+	margin: 2em;
+}
+.buttons {
+	text-align: center;
+	margin-top: 7em;
+}
+.half-learn {
+	border-radius: 10px;
+  background: #BADA55;
+  
 }
