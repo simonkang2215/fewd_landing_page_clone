@@ -172,3 +172,28 @@ h4 {
 	text-align: center;
 	
 }
+/*end of cases*/
+/*Start of Karma Learn*/
+.karma-learn {
+	background-image: url('../img/buy-now-bg.jpg');
+	height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	overflow: auto;
+}
+.karma-learn .content {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 20px; 
+	color: black; 
+	letter-spacing: 0.03em;
+	text-align: center;
+	margin: 1em;
+	float: left;
+	margin-top: 3em;
+	width: 470px;
+
+}
+.karma-bio h5, p {
+	margin: 3em;
+}
