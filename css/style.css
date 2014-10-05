@@ -56,12 +56,14 @@ div {
 /*Navigation Bar Settings*/
 .top-navigation {
 	  background-color: #fff;
+
 }
 .top-navigation > .content {
 	padding: 0px 15px;
 	height: 70px;
 	margin: 0 auto;
 	width: 970px;
+	
 	}
 .top-navigation .links {
 	float: right;
@@ -127,5 +129,35 @@ h1, h3 {
 .half-learn {
 	border-radius: 10px;
   background: #BADA55;
-  
+
 }
+/*End of Intro section*/
+/*Start of cases section*/
+h2 {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 25px; 
+	color: black; 
+	letter-spacing: 0.03em;
+	margin: 2em;
+	text-align: center;
+	margin-top: 5em;
+}
+.devices {
+	display: inline-block;
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-top: 3em;
+
+}
+h4, .notes {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 15px; 
+	color: black; 
+	letter-spacing: 0.03em;
+	text-align: center;
+	margin: 1em;
+}
+h4 {
+	font-weight: bolder;
+}
+
